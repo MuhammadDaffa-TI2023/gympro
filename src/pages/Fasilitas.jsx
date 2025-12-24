@@ -276,6 +276,9 @@ const Fasilitas = () => {
           font-size: 0.95rem;
         }
         @media (max-width: 768px) {
+          .fasilitas-section {
+            padding: 40px 20px;
+          }
           .section-title {
             font-size: 2rem;
           }

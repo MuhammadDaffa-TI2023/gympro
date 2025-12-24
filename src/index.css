@@ -82,7 +82,7 @@ body {
 /* GRID LAYOUT */
 .history-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap: 30px;
   margin-top: 40px;
 }
@@ -199,7 +199,7 @@ body {
 /* Gerakan Grid */
 .gerakan-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap: 24px;
 }
 
@@ -364,8 +364,24 @@ body {
 /* Suplemen Grid */
 .suplemen-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 30px;
+}
+
+@media screen and (max-width: 640px) {
+  .suplemen-card {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .suplemen-image-container {
+    margin-bottom: 16px;
+  }
+
+  .suplemen-timing {
+    justify-content: center;
+  }
 }
 
 /* Suplemen Card */
